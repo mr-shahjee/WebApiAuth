@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj": {}
+    "d:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj": {}
   },
   "projects": {
-    "D:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj": {
+    "d:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj",
+        "projectUniqueName": "d:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj",
         "projectName": "WebApiAuth",
-        "projectPath": "D:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj",
+        "projectPath": "d:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\WebApiAuth.csproj",
         "packagesPath": "C:\\Users\\Abdullah Shah\\.nuget\\packages\\",
-        "outputPath": "D:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\obj\\",
+        "outputPath": "d:\\Abdullah Working\\SimpleCRUD\\WebApiAuth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdullah Shah\\AppData\\Roaming\\NuGet\\NuGet.Config"
