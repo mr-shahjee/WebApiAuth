@@ -1,5 +1,6 @@
 using Claim.BindingMode;
 using Claim.Data.Entities;
+using DTO;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -38,6 +39,25 @@ public class UserController : ControllerBase
             return await Task.FromResult(ex.Message);
         }
 
+    }
+    [HttpGet("GetAllUsers")]
+    public async Task<object> GetAllUsers()
+    {
+        try
+        {
+            var getUsers = _userManager.Users.Select(x => new UserDTO(x.FullName, x.Email, x.UserName, x.DateCreated));
+            return await Task.FromResult(getUsers);
+        }
+        catch (Exception ex)
+        {
+            return await Task.FromResult(ex.Message);
+        }
+    }
+
+    [HttpPost("Login")]
+    public async Task<object> LoginUser([FromBody])
+    {
+        return Ok();
     }
 
 }
